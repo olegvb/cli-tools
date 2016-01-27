@@ -36,7 +36,7 @@ class Tick
      *
      * @param null|string $symbol -- symbol to print or use default 'symbol' parameter if omitted
      */
-    public static function printTick($symbol = null)
+    public static function tick($symbol = null)
     {
         if (self::$_tickOptions['disable_output']) {
             self::$_tickOptions['counter']++;
@@ -56,6 +56,16 @@ class Tick
         if (self::$_tickOptions['counter'] % self::$_tickOptions['divider'] == 0) {
             echo $symbol;
         }
+    }
+
+    /**
+     * An alias for a tick($symbol) function.
+     *
+     * @param null|string $symbol
+     */
+    public static function printTick($symbol = null)
+    {
+        return self::tick($symbol);
     }
 
     /**
