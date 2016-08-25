@@ -3,7 +3,7 @@
   "type": "library",
   "description": "Helper tools for CLI scripts",
   "keywords": ["cli", "command line tools", "progress indicator"],
-  "homepage": "https://bitbucket.org/olegvb/cli-tools",
+  "homepage": "https://github.com/olegvb/cli-tools",
   "license": "MIT",
   "authors": [
     {

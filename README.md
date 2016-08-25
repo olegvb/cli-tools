@@ -6,7 +6,7 @@ https://github.com/olegvb/cli-tools
 
 ## Installation
 ### Using composer
-```
+```bash
 $ composer require olegvb/cli-tools
 ```
 
@@ -19,12 +19,12 @@ Or include in your `composer.json` file:
 }
 ```
 
-## Included Tools:
+## CLI Tools Tools:
 ### Tick
 Print progress ticks with various characters.
 
 Usage:
-```PHP
+```php
 use \Olegvb\CliTools\Tick;
 
 for ($i=0;$i<1000;$i++) {
